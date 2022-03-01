@@ -11,7 +11,6 @@ var buttonInnerHTML = this.innerHTML;
 
     buttonAnimation(buttonInnerHTML);
 });
-}
 document.addEventListener("keypress",function(event){
 
        makeSound(event.key);
@@ -19,6 +18,7 @@ document.addEventListener("keypress",function(event){
       buttonAnimation(event.key); 
        
 });
+}
 
 function makeSound(key){
     console.log(key);
